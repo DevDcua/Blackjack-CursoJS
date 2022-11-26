@@ -96,7 +96,7 @@
             //Cartas en HTML
                 
             const imgCarta = document.createElement('img');
-            imgCarta.src = `../blackjack-project/assets/img/${ carta }.png`;
+            imgCarta.src = `../Blackjack-CursoJS/assets/img/${ carta }.png`;
             imgCarta.classList.add('card');    
             divCartasIa.append( imgCarta );
             
@@ -139,7 +139,7 @@
         
     
         const imgCarta = document.createElement('img');
-        imgCarta.src = `../blackjack-project/assets/img/${ carta }.png`;
+        imgCarta.src = `../Blackjack-CursoJS/assets/img/${ carta }.png`;
         imgCarta.classList.add('card');    
         divCartasJugador.append( imgCarta );
         
